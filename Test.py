@@ -7,7 +7,6 @@ def getHTML(url):
     r = requests.get(url, headers=H.head)
     return r.text
 
-result = ''
-page = getHTML('http://sc.stock.cnfol.com/ggzixun/')
+page = getHTML('http://stock.10jqka.com.cn/gegugg_list/')
 
 print(page)
